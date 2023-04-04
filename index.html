@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Student Managment Project-F2 April</title>
+</head>
+
+<body>
+    <h2 class="heading">Student Management CRUD</h2>
+    <form action="">
+        <input type="text" name="name" id="name" class="fields" placeholder="Name">
+        <input type="email" name="email" id="email" class="fields" placeholder="Email">
+        <input type="text" name="GPA" id="GPA" class="fields" placeholder="GPA"><br>
+        <input type="number" name="age" id="age" class="fields" placeholder="Age">
+        <input type="text" name="Degree" id="degree" class="fields" placeholder="Degree">
+    </form>
+    <button id="add">Add Student</button>
+    <div class="searchbox">
+        <input type="text" id="searchterm" placeholder="search by Name, email or degree" onkeyup="searchFun()">
+    </div>
+
+    <table id="table" border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Student Name</th>
+                <th>Email</th>
+                <th>Age</th>
+                <th>GPA</th>
+                <th>Degree</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+    </table>
+
+  <script src="index.js"></script>
+  <script src="index2.js"></script>
+</body>
+
+</html>

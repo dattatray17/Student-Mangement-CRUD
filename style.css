@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;
+}
+
+.heading{
+    padding: 20px 0px;
+    margin: 10px;
+    color: gainsboro;
+}
+.fields{
+    padding: 3px;
+    margin: 10px;
+    border-color:white;
+    background-color: black;
+}
+ #add{
+    padding: 4px 80px;
+    margin: 10px;
+ }
+
+ #searchterm{
+    width: 80%;
+    padding: 4px;
+    margin: 25px 10px;
+ }
+
+ #table{
+    color:white;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10px
+ }
+
+ table th, table td {
+    padding: 8px;
+  }
